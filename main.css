@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    font-family: 'Cinzel Decorative';
+    border-bottom: 1px solid #977e42;
+    color: white;
+    height:10vh;
+}
+
+header h1{
+    color: #977e42;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+}
+
+.usa{
+    display: flex;
+}
+
+.usa img{
+    margin-top: 25px;
+    width: 40px;
+    height:30px;
+    margin-left: 10px;
+}    
+
+.menu{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 1200px;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 10px;
+    
+}
+
+.menu li a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    transition: 0.5s;
+    color: #977e42;
+}
+
+main{
+    margin: 20px 300px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    border: 3px solid #977e42;
+    width: 700px;
+    height: 700px;
+    margin: 10px;
+}
+
+main h2{
+    color: #977e42;
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+}
+
+.articles {
+    margin-top: 20px;
+}
+
+#tokdathai h2 {
+    color: white;
+    border: 1px solid #977e42;
+    background-color: #977e42;
+}
+
+#tokdathai {
+    border: 3px solid #977e42;
+    border-radius: 10px;
+
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+}
+
+.banner2 img{
+    border: 3px solid #977e42;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    margin-right: 600px;
+}
+
+
+.banner3{
+    display: flex;
+    justify-content: center;
+}
+
+.banner3 img{
+    border: 3px solid #977e42;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+#contatos{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+#contatos h3{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight:400;
+}
+
+#contatos form{
+    border: 1px solid #977e42;
+    background-color: #977e42;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+}
+
+#contatos input{
+    width: 350px;
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid #977e42;
+    border-radius: 10px;
+    outline: none;
+}
+
+#contatos #btn{
+    transition: 0.5s;
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#contatos #btn:hover{
+    transition: 0.5s;
+    color: #977e42;
+}
+
+footer{
+    margin-top: 3%;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #977e42;
+    color: black;
+}
